@@ -1,0 +1,19 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "description": "This is just for pre-interview assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kamol774/bookstore.git"
+  },
+  "author": "Kamoliddin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kamol774/bookstore/issues"
+  },
+  "homepage": "https://github.com/Kamol774/bookstore#readme"
+}
