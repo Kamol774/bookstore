@@ -1,14 +1,24 @@
 .home-container {
   position: relative;
   width: auto;
-  height: auto;
+  /* height: auto; */
   min-height: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(-45deg, #15191f, #77a877, #b4d523, #387174);
+}
+
+.home-container .nav {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(-45deg, #67ee52, #a83ce7, #d56d23, #23ccd5);
+  justify-content: center;
+  border-radius: 15px;
+  text-decoration: dashed;
 }
-
 .home-container a {
   text-decoration: none;
   color: #000000;
@@ -16,6 +26,12 @@
 
 .home-container .nav-item a {
   color: #e3c08d;
+  font-weight: bold;
+}
+.home-container .nav-item a:hover {
+  color: #8de38e;
+  background-color: rgba(39, 45, 39, 0.157);
+  border-radius: 15px;
 }
 
 .home-container .nav-item a.disabled {
@@ -33,6 +49,7 @@
 .home-container .animation-frame {
   position: relative;
   display: flex;
+  /* margin-left: 300px; */
   align-items: center;
   justify-content: center;
   margin-top: 55px;
@@ -50,7 +67,7 @@
 .home-container .sphere-animation {
   position: relative;
   width: 580px;
-  height: 580px;
+  /* height: 580px; */
 }
 
 .home-container .sphere path {
