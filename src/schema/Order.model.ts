@@ -1,5 +1,4 @@
 import mongoose, { Schema } from "mongoose";
-import { OrderStatus } from "../libs/enum/order.enum";
 
 const orderScheme = new Schema({
   orderTotal: {
@@ -10,11 +9,7 @@ const orderScheme = new Schema({
     type: Number,
     required: true
   },
-  orderStatus: {
-    type: String,
-    enum: OrderStatus,
-    default: OrderStatus.PAUSE
-  },
+  
   memberId: {
     type: Schema.Types.ObjectId,
     required: true,
